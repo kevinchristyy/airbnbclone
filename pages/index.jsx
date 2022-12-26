@@ -7,7 +7,7 @@ import MediumCard from "../components/mediumcard";
 import Smallcard from "../components/smallcard";
 
 export default function Home({ exploreData, cardsData }) {
-  console.log(exploreData);
+  
   return (
     <div className="">
       <Head>
@@ -48,11 +48,9 @@ export default function Home({ exploreData, cardsData }) {
         <section>
           <LargeCard
             img="https://links.papareact.com/4cj"
-            alt="large card"
             title="The Greatest Outdoors"
             description="Wishlists curated by Airbnb"
             buttonText="Get Inspired"
-            fill
           />
         </section>
       </main>
