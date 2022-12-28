@@ -20,7 +20,7 @@ export default function Home({ exploreData, cardsData }) {
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16 mt-3">
         <section className="pt-6">
-          <h2 className="text-4xl font-semibold pb-5">Stay Nearby</h2>
+          <h2 className="text-4xl font-semibold pb-5">Airbnb Nearby</h2>
 
           {/* Pull some data from a server - API endpoints */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -36,7 +36,7 @@ export default function Home({ exploreData, cardsData }) {
         </section>
 
         <section>
-          <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
+          <h2 className="text-4xl font-semibold py-8">Airbnb Anywhere</h2>
 
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
             {cardsData?.map(({ img, title }) => (
@@ -45,9 +45,9 @@ export default function Home({ exploreData, cardsData }) {
           </div>
         </section>
 
-        <section>
+        <section className="text-white">
           <LargeCard
-            img="https://links.papareact.com/4cj"
+            img="https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             title="The Greatest Outdoors"
             description="Wishlists curated by Airbnb"
             buttonText="Get Inspired"

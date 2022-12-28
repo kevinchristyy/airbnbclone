@@ -2,16 +2,17 @@ import Image from "next/image";
 
 function Banner() {
   return (
-    <div className="relative h-[300px] sm:h-[400px] lg:h-[300px] xl:h-[600px] 2xl:h-[700px]">
-      <img
+    <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
+      <Image
         className=""
-        src="https://wallpaperaccess.com/full/3713165.jpg"
+        src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80"
         alt="banner img"
+        fill
       />
       <div className="absolute top-1/4 w-full text-center">
-        <p className="text-sm sm:text-lg text-white">Airbnb Anywhere.</p>
+        <p className="text-sm sm:text-lg text-white">Airbnb where?</p>
 
-        <button className="text-purple-500 bg-white px-10 py-4 shadow-md rounded-full font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150">
+        <button className="text-red-400 bg-white px-10 py-4 shadow-md rounded-full font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150">
           Show me
         </button>
       </div>
